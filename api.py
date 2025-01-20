@@ -31,10 +31,6 @@ def manual():
     return jsonify({"message": f"Temperatura alterada para: {data['temperatura']}°C"}), 200
 
 
-    
-    return jsonify(), 200
-
-
 def calcular_temperatura_ideal(umidade_relativa):
     calc = ((umidade_relativa - 50) / 10)
     if calc < 0:
