@@ -1,8 +1,27 @@
-// Obtém o elemento do slider e o valor do texto
-const slider = document.getElementById('temperature');
-const temperatureValue = document.getElementById('temperature-value');
+var cold = document.getElementById("cold");
+var hot = document.getElementById("hot");
+var btnCold = document.getElementById("btn-cold");
+var btnHot = document.getElementById("btn-hot");
+var result = document.getElementById("result");
+var score = 23;
 
-// Atualiza o valor exibido conforme o slider é movido
-slider.addEventListener('input', function() {
-    temperatureValue.textContent = `${slider.value}°C`;
+function up(){if(score < 30 ){score ++;}
+  result.innerHTML = score;}
+
+function down(){if(score > 18 ){score --;}
+  result.innerHTML = score;}
+
+
+cold.addEventListener('mouseover',function(){
+	btnCold.classList.add('cold-active');
+});
+
+cold.addEventListener('mouseout',function(){
+	btnCold.classList.remove('cold-active');
+});
+hot.addEventListener('mouseover',function(){
+	btnHot.classList.add('hot-active');
+});
+hot.addEventListener('mouseout',function(){
+	btnHot.classList.remove('hot-active');
 });
