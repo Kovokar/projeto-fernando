@@ -90,13 +90,6 @@ O **Smart AC Control** é uma solução inovadora de automação residencial que
 - Suporte a CORS
 
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de enviar um pull request.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT.
 
 
 **Feito com ❤️ e 🥶/🥵 por Entusiastas de Automação Residencial**
