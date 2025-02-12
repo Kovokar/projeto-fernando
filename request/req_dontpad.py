@@ -6,7 +6,7 @@ def post():
 
     print("FAZENDO REQUEST...\n\n")
     
-    texto = 'PEDRO PICA'
+    texto = 'PEDRO AHHHH'
     last = '1739323122827'
     boolean = 'false'
     token = '-449589abc997470c1967'
