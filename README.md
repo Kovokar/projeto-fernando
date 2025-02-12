@@ -6,7 +6,7 @@ O **Smart AC Control** é uma solução inovadora de automação residencial que
 
 ## 🎥 Demonstração do Projeto
 
-[![Vídeo Explicativo do Smart AC Control](https://img.youtube.com/vi/SEU_LINK_AQUI/0.jpg)](https://www.youtube.com/watch?v=SEU_LINK_AQUI)
+[![Vídeo Explicativo do Smart AC Control](https://img.youtube.com/vi/fwfffw/0.jpg)](https://youtu.be/Flitq3h31t0?si=0Ml8UuJhdMpwQeNN)
 
 
 ## 🚀 Funcionalidades Principais
