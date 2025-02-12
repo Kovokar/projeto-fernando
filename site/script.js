@@ -22,9 +22,9 @@ function sendTemperature() {
       ie_manual: true // Envia a flag 'ie_manual' como true para indicar que a temperatura foi ajustada manualmente
     })
   })
-  .then(response => response.json()) // Converte a resposta para JSON
-  .then(data => console.log("Resposta do endpoint:", data)) // Exibe a resposta do servidor no console
-  .catch(error => console.error("Erro na chamada ao endpoint:", error)); // Exibe erros, se houver
+    .then(response => response.json()) // Converte a resposta para JSON
+    .then(data => console.log("Resposta do endpoint:", data)) // Exibe a resposta do servidor no console
+    .catch(error => console.error("Erro na chamada ao endpoint:", error)); // Exibe erros, se houver
 }
 
 // Função para aumentar a temperatura
@@ -46,24 +46,24 @@ function down() {
 }
 
 // Adiciona o efeito de hover no botão "Frio" para mostrar uma classe de estilo
-cold.addEventListener('mouseover', function() {
+cold.addEventListener('mouseover', function () {
   btnCold.classList.add('cold-active'); // Adiciona a classe 'cold-active' quando o mouse está sobre o botão
   resetInactivityTimer(); // Reseta o timer de inatividade
 });
 
 // Remove o efeito de hover no botão "Frio" quando o mouse sai do botão
-cold.addEventListener('mouseout', function() {
+cold.addEventListener('mouseout', function () {
   btnCold.classList.remove('cold-active'); // Remove a classe 'cold-active'
 });
 
 // Adiciona o efeito de hover no botão "Quente" para mostrar uma classe de estilo
-hot.addEventListener('mouseover', function() {
+hot.addEventListener('mouseover', function () {
   btnHot.classList.add('hot-active'); // Adiciona a classe 'hot-active' quando o mouse está sobre o botão
   resetInactivityTimer(); // Reseta o timer de inatividade
 });
 
 // Remove o efeito de hover no botão "Quente" quando o mouse sai do botão
-hot.addEventListener('mouseout', function() {
+hot.addEventListener('mouseout', function () {
   btnHot.classList.remove('hot-active'); // Remove a classe 'hot-active'
 });
 
